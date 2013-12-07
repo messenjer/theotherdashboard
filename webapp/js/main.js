@@ -3,7 +3,9 @@ require.config({
   paths: {
     jquery: 'vendor/jquery/jquery-2.1.0-beta1',
     underscore: 'vendor/underscore/underscore-min',
-    backbone: 'vendor/backbone/backbone-min'
+    backbone: 'vendor/backbone/backbone-min',
+    text: 'vendor/require/text',
+    templates: '../templates',
   }
 });
 

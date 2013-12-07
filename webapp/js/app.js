@@ -1,21 +1,16 @@
 define([
   'jquery',
   'underscore',
-  'backbone'
+  'backbone',
+  'router', // Request router.js
 ], function($, _, Backbone, Router){
+
   var initialize = function(){
-
-    if ( $('.js-jquery') ) {
-      $('.js-jquery').addClass('btn-success');
-    }
-
-    if ( $('.js-backbone') ) {
-      $('.js-backbone').addClass('btn-success');
-    }     
-
+    Router.initialize();
   };
 
   return {
     initialize: initialize
   };
+  
 });
