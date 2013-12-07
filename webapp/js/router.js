@@ -7,6 +7,7 @@ define([
   
   var AppRouter = Backbone.Router.extend({
     routes: {
+      'test': 'testAction',
       // Default
       '*actions': 'defaultAction'
     }
@@ -15,12 +16,14 @@ define([
   var initialize = function(){
 
     var app_router = new AppRouter;
+
+    app_router.on('route:testAction', function(){
+        $('body').append('Test');
+    });
     
     app_router.on('route:defaultAction', function (actions) {
-        
         var helloView = new HelloView();
         helloView.render();
-
     });
 
     Backbone.history.start();
