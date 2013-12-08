@@ -13,6 +13,7 @@
   "dependencies": {
     "feedparser": "~0.16.3",
     "excel": "0.0.60",
-    "unirest": "0.0.9"
+    "unirest": "0.0.9",
+    "fbgraph": "~0.2.8"
   }
 }
