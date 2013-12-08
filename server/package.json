@@ -11,6 +11,7 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies": {
-    "feedparser": "~0.16.3"
+    "feedparser": "~0.16.3",
+    "excel": "0.0.60"
   }
 }
