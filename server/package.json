@@ -1,0 +1,16 @@
+{
+  "name": "NodeBoilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "default.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "feedparser": "~0.16.3"
+  }
+}
