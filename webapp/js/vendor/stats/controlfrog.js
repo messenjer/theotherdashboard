@@ -10,6 +10,8 @@ if(themeColour == 'white'){
 	var gaugeBarColor = backColor;
 	var gaugePointerColor = '#ccc';
 	var pieSegColors = [metric,'#868686','#636363','#404040','#1d1d1d'];	
+	var gaugeColorStop = '#00FF00';
+	var gaugeColorStart = '#FF0000';
 }
 else {
 	//default to black
@@ -23,6 +25,8 @@ else {
 	var gaugeTrackColor = '#4f4f4f';
 	var gaugeBarColor = '#898989';
 	var gaugePointerColor = metric;
+	var gaugeColorStop = '#00FF00';
+	var gaugeColorStart = '#FF0000';
 }
 
 // Stores
@@ -397,7 +401,9 @@ $(document).ready(function(){
 		rGopts.lineWidth = 0.30;
 		rGopts.strokeColor = gaugeTrackColor;
 		rGopts.limitMax = true;
-		rGopts.colorStart = gaugeBarColor;
+		rGopts.colorStart = gaugeColorStart;
+		rGopts.colorStop = gaugeColorStop;
+		rGopts.generateGradient = true;
 		rGopts.percentColors = void 0;	
 		rGopts.pointer = {
 			length: 0.7,
@@ -410,7 +416,7 @@ $(document).ready(function(){
 		cf_rGs[gId].setTextField(document.getElementById(gmId));
 
 		// Set up values for gauge (in reality it'll likely be done one by one calling the function, not from here)
-		updateOpts = {'minVal':'0','maxVal':'1000','newVal':'500'};
+		updateOpts = {'minVal':'0','maxVal':'1000','newVal':'900'};
 		gaugeUpdate(gId, updateOpts);
 
 

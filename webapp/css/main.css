@@ -1,10 +1,30 @@
-
-
 /* ==========================================================================
-   Author's custom styles
+   The Other Dashboard's custom styles
    ========================================================================== */
+   /* Typekit failsafe */
+   body,
+   h1,
+   h2,
+   h3,
+   p,
+   .btn,
+   .menu > li > a { visibility: visible; opacity: 1; -webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; -o-transition: all 1s ease-out; transition: all 1s ease-out; }
+   .wf-loading body,
+   .wf-loading h1,
+   .wf-loading h2,
+   .wf-loading h3,
+   .wf-loading p,
+   .wf-loading .btn,
+   .wf-loading .menu > li > a { visibility: hidden; opacity: 0; -webkit-transition: all .3s ease-out; -moz-transition: all .3s ease-out; -o-transition: all .3s ease-out; transition: all .3s ease-out; }
+body {
+	font-family: "ff-netto-web",sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "ff-netto-web",sans-serif !important;
+	margin: 0;
+	padding: 0;
 
-
+}
 
 
 

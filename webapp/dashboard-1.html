@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Dashboard 1</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>The Other Dashboard - Dashboard 1</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <script type="text/javascript">
+  (function() {
+    var config = {
+      kitId: 'lue0qmy',
+      scriptTimeout: 3000
+    };
+    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+  </script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link href="css/controlfrog.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/transitions/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/transitions/animations.css" />
+  <link rel="stylesheet" href="css/main.css">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link href="css/controlfrog.css" rel="stylesheet" media="screen">
-        <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body class="black">
+ <div id="pt-main" class="pt-perspective">
+  <div class="pt-page pt-page-1">
+    <h1>The Other Dashboard - Classic mode</h1>
 
-        <script src="js/vendor/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body class="black">
-      <div class="container">
+  </div>
+  <div class="pt-page pt-page-2">
+    <h1>The Other Dashboard - Alternate mode</h1>
+  </div>
+  <div class="pt-page pt-page-3">
+    <h1>The Other Dashboard - Orientation panel</h1>
+  </div>
+</div>
 
-
-      </div> <!-- /container -->
-
-      <!-- JavaScript at the bottom for fast page loading -->
-      <script src="js/vendor/jquery/jquery-2.1.0-beta1.min.js"></script>
-      <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
-
-      <script src="js/vendor/stats/moment.js"></script> 
-      <script src="js/vendor/stats/easypiechart.js"></script>
-      <script src="js/vendor/stats/gauge.js"></script>  
-      <script src="js/vendor/stats/chart.js"></script>
-      <script src="js/vendor/stats/jquery.sparklines.js"></script>      
-              
-      <script>
-        var themeColour = 'black';
-      </script>
-      <script src="js/vendor/stats/controlfrog.js"></script>
-
-    </body>
+<!-- JavaScript at the bottom for fast page loading -->
+<script src="js/vendor/jquery/jquery-2.1.0-beta1.min.js"></script>
+<script src="js/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="js/vendor/stats/moment.js"></script> 
+<script src="js/vendor/stats/easypiechart.js"></script>
+<script src="js/vendor/stats/gauge.js"></script>  
+<script src="js/vendor/stats/chart.js"></script>
+<script src="js/vendor/stats/jquery.sparklines.js"></script>      
+<script>
+var themeColour = 'black';
+</script>
+<script src="js/vendor/stats/controlfrog.js"></script>
+<script src="js/vendor/transitions/pagetransitions.js"></script>
+</body>
 </html>
