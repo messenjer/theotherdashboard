@@ -38,6 +38,15 @@ var PageTransitions = (function() {
 			}
 		} );
 		*/
+
+		// Move on keypress
+		$("body").on('keydown',function(e){
+		  if (e.keyCode == 37) { // left
+		    nextPage(58);
+		  } else if (e.keyCode == 39) { // right
+		  	nextPage(59);
+		  }
+		});		
 		
 		$iterate.on( 'click', function() {
 			if( isAnimating ) {
