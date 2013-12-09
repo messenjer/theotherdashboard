@@ -29,6 +29,7 @@ var PageTransitions = (function() {
 
 		$pages.eq( current ).addClass( 'pt-page-current' );
 
+		/*
 		$( '#dl-menu' ).dlmenu( {
 			animationClasses : { in : 'dl-animate-in-2', out : 'dl-animate-out-2' },
 			onLinkClick : function( el, ev ) {
@@ -36,7 +37,8 @@ var PageTransitions = (function() {
 				nextPage( el.data( 'animation' ) );
 			}
 		} );
-
+		*/
+		
 		$iterate.on( 'click', function() {
 			if( isAnimating ) {
 				return false;
