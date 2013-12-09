@@ -25,7 +25,7 @@ a:hover {
 
 .cf-item header {
   text-transform: uppercase;
-  border-bottom: solid 1px; }
+   }
   .cf-item header p {
     margin: 5px 0 5px 0; }
     .cf-item header p span {
@@ -181,7 +181,7 @@ body.black {
   body.black .navbar-default .navbar-nav > .active > a, body.black .navbar-default .navbar-nav > .active > a:hover, body.black .navbar-default .navbar-nav > .active > a:focus {
     background-color: darkgrey; }
   body.black .cf-item header {
-    border-bottom-color: #4f4f4f; }
+   }
     body.black .cf-item header p span {
       background-color: #4f4f4f; }
   body.black .metric {
@@ -203,7 +203,7 @@ body.white {
   background-color: white;
   color: darkgrey; }
   body.white .cf-item header {
-    border-bottom-color: darkgrey; }
+ }
     body.white .cf-item header p span {
       background-color: darkgrey; }
   body.white .metric {

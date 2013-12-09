@@ -16,20 +16,28 @@
    .wf-loading p,
    .wf-loading .btn,
    .wf-loading .menu > li > a { visibility: hidden; opacity: 0; -webkit-transition: all .3s ease-out; -moz-transition: all .3s ease-out; -o-transition: all .3s ease-out; transition: all .3s ease-out; }
-body {
-	font-family: "ff-netto-web",sans-serif !important;
+   body {
+   	font-family: "ff-netto-web",sans-serif !important;
+   }
+   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+   	font-family: "ff-netto-web",sans-serif !important;
+   	margin: 0;
+   	padding: 0;
+   	color: #eee;
+   }
+   h1 {
+   	margin-bottom: 5px !important;
+   }
+   h2 {font-size: 20px;}
+.cf-item .pad-top {
+	padding-top: 30px;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: "ff-netto-web",sans-serif !important;
-	margin: 0;
-	padding: 0;
-
-}
-
-
-
-
-
+   /* Widget styles */
+   .cf-item .inner, .cf-item .inner-content {
+   	padding: 15px;
+   	background: #666;
+   	height: 100%;
+   }
 
 
 
