@@ -1,9 +1,6 @@
 var PageTransitions = (function() {
 
-	var $main = $( '#pt-main' ),
-		$pages = $main.children( 'div.pt-page' ),
-		$iterate = $( '#iterateEffects' ),
-		animcursor = 1,
+	var $pages = $('.pt-page'),
 		pagesCount = $pages.length,
 		current = 0,
 		isAnimating = false,
@@ -16,9 +13,7 @@ var PageTransitions = (function() {
 			'animation' : 'animationend'
 		},
 		// animation end event name
-		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
-		// support css animations
-		support = Modernizr.cssanimations;
+		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ]
 	
 	function init() {
 
@@ -29,16 +24,6 @@ var PageTransitions = (function() {
 
 		$pages.eq( current ).addClass( 'pt-page-current' );
 
-		/*
-		$( '#dl-menu' ).dlmenu( {
-			animationClasses : { in : 'dl-animate-in-2', out : 'dl-animate-out-2' },
-			onLinkClick : function( el, ev ) {
-				ev.preventDefault();
-				nextPage( el.data( 'animation' ) );
-			}
-		} );
-		*/
-
 		// Move on keypress
 		$("body").on('keydown',function(e){
 		  if (e.keyCode == 37) { // left
@@ -46,23 +31,12 @@ var PageTransitions = (function() {
 		  } else if (e.keyCode == 39) { // right
 		  	nextPage(59);
 		  }
-		});		
-		
-		$iterate.on( 'click', function() {
-			if( isAnimating ) {
-				return false;
-			}
-			if( animcursor > 67 ) {
-				animcursor = 1;
-			}
-			nextPage( animcursor );
-			++animcursor;
-		} );
+		});
 
 	}
 
 	function nextPage(options ) {
-		var animation = (options.animation) ? options.animation : options;
+		var animation = options;
 
 		if( isAnimating ) {
 			return false;
@@ -72,21 +46,11 @@ var PageTransitions = (function() {
 		
 		var $currPage = $pages.eq( current );
 
-		if(options.showPage){
-			if( options.showPage < pagesCount - 1 ) {
-				current = options.showPage;
-			}
-			else {
-				current = 0;
-			}
+		if( current < pagesCount - 1 ) {
+			++current;
 		}
-		else{
-			if( current < pagesCount - 1 ) {
-				++current;
-			}
-			else {
-				current = 0;
-			}
+		else {
+			current = 0;
 		}
 
 		var $nextPage = $pages.eq( current ).addClass( 'pt-page-current' ),
@@ -380,10 +344,6 @@ var PageTransitions = (function() {
 				onEndAnimation( $currPage, $nextPage );
 			}
 		} );
-
-		if( !support ) {
-			onEndAnimation( $currPage, $nextPage );
-		}
 
 	}
 
