@@ -2,10 +2,28 @@ define [
   "jquery"
   "underscore"
   "backbone"
-  "router"
-], ($, _, Backbone, Router) ->
+  "views/helloView"
+], ($, _, Backbone, HelloView) ->
 
-  class Application
+  class AppRouter extends Backbone.Router
     
-    initialize : () ->
-      Router.initialize()
+    routes:
+      test: "testAction"
+      # Default
+      "*actions": "defaultAction"
+
+    constructor:() ->
+      super @routes
+
+    initialize: () ->
+      
+      @on "route:testAction", ->
+        $("body").append "Test"
+
+      @on "route:defaultAction", (actions) ->
+        helloView = new HelloView()
+        helloView.render()
+
+      Backbone.history.start()
+
+      return
