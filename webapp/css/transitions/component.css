@@ -29,6 +29,13 @@ html, body { height: 100%; }
 	background: #333;
 }
 
+.pt-page-1 {
+	background: #222;
+}
+.pt-page-2 {
+	background: #aaa;
+}
+
 .pt-page-current,
 .no-js .pt-page {
 	visibility: visible;

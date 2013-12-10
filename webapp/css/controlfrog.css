@@ -3,10 +3,10 @@ body {
   font-size: 12px; }
 
 a {
-  color: #16a085; }
+  color: #eee; }
 
 a:hover {
-  color: #1abc9c; }
+  color: #fff; }
 
 .navbar-brand,
 .navbar-nav a {
@@ -23,7 +23,7 @@ a:hover {
   padding: 0 15px;
   margin: 0 auto; }
 
-.cf-item header {
+.cf-item header, .item header {
   text-transform: uppercase;
    }
   .cf-item header p {
@@ -311,7 +311,7 @@ body.white {
   .col-sm-3 .change {
     margin-top: 5px; }
     .col-sm-3 .change .arrow-up, .col-sm-3 .change .arrow-down {
-      margin-top: 3px;
+      margin-top: 6px;
       margin-right: 5px; }
     .col-sm-3 .change .arrow-up {
       border-width: 0 7.5px 13.0px 7.5px; }
@@ -880,7 +880,7 @@ body.white {
 .cf-svmc-sparkline {
   width: 100%; }
   .cf-svmc-sparkline .cf-svmc .change {
-    margin-top: 0; }
+    margin-top: 15px; }
   .cf-svmc-sparkline .cf-sparkline {
     margin-top: 10px;
     margin-bottom: 10px; }
@@ -910,13 +910,12 @@ body.white {
   overflow: hidden;
   clear: both; }
   .cf-pie.content {
-    height: 200px; }
+    height: 200px; max-height: 300px; margin-top: 30px; margin-left:6em; padding: 0; }
   .cf-pie canvas {
-    float: left; }
+    display: inline-block; }
   .cf-pie .cf-pie-legend {
-    float: left;
-    height: 100%;
-    display: table; }
+    height: 50%;
+    display:inline-block; }
     .cf-pie .cf-pie-legend ul {
       margin: 0;
       padding: 0;

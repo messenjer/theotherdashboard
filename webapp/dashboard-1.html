@@ -17,6 +17,7 @@
   </script>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link href="css/controlfrog.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" type="text/css" href="css/transitions/component.css" />
   <link rel="stylesheet" type="text/css" href="css/transitions/animations.css" />
@@ -29,96 +30,72 @@
   <div class="pt-page pt-page-1">
     <h1>The Other Dashboard - Classic mode</h1>
     <div class="cf-container">
-
       <div class="row">
-        <div class="col-sm-6 cf-item">
-          <div class="inner">
-            <header>
-              <h2>Realtime Visitors</h2>
-            </header>
-            <div class="content cf-gauge" id="cf-gauge-1">
-              <div class="val-current">
-                <div class="metric" id="cf-gauge-1-m">0</div>
-              </div>
-              <div class="canvas">
-                <canvas id="cf-gauge-1-g"></canvas>
-              </div>
-              <div class="val-min">
-                <div class="metric-small">0</div>
-              </div>
-              <div class="val-max">
-                <div class="metric-small">0</div>           
-              </div>
-            </div>
-          </div> <!-- //end inner -->
-          <div class="row pad-top">
-            <div class="col-sm-4 cf-item">
-              <div class="inner-content">
-                <header>
-                  <h2>Lorem ipsum</h2>
-                </header>
-                <div class="content">
-                  <div class="cf-yn">
-                    <div class="metric m-red">
-                      No
-                    </div>
-                  </div>
+        <div class="col-sm-3">
+          <div class="inner-content">
+            <div class="cf-item">
+              <header>
+                <h2>Actuellement</h2>
+              </header>
+              <div class="content cf-gauge" id="cf-gauge-1">
+                <div class="val-current">
+                  <div class="metric" id="cf-gauge-1-m">0</div>
                 </div>
+                <div class="canvas">
+                  <canvas id="cf-gauge-1-g"></canvas>
+                </div>
+                <div class="val-min">
+                  <div class="metric-small">0</div>
+                </div>
+                <div class="val-max">
+                  <div class="metric-small">0</div>
+                  <span>30 days Max</span>          
+                </div>
+                <h1 class="center">Visiteurs actifs</h1>
               </div>
             </div> <!-- //end cf-item -->
-            <div class="col-sm-4 cf-item">
-                <!--
-      Display the time and date
-      For 12hr clock add class 'cf-td-12' to the 'cf-td' div
-    -->
-
-    <div class="inner-content">
-      <header>
-        <h2>Time &amp; Date</h2>
-      </header>
-      <div class="content">
-        <div class="cf-td">
-          <!-- <div class="cf-td cf-td-12">-->
-          <div class="cf-td-time metric">12:00</div>
-          <div class="cf-td-dd">
-            <p class="cf-td-day metric-small">Monday</p>
-            <p class="cf-td-date metric-small">1st October, 2013</p>
           </div>
-          <h4>Brussels, Belgium</h4>
         </div>
-      </div></div>
-    </div> <!-- //end cf-item -->
-    <div class="col-sm-4 cf-item">
-      <div class="inner-content">
-        <header>
-          <h2>Lorem ipsum</h2>
-        </header>
-        <div class="content">
-          <div class="cf-yn yn-y">
-            <div class="metric m-green">
-              Yes
+        <div class="col-sm-6">
+          <div class="inner-content item contributors">
+            <header>
+              <h2>Top des contributeurs</h2>
+            </header>
+            <div class="row pad-top">
+              <div class="col-sm-4 center">
+                <h1 class="position">2</h1><br>
+                <img src="images/avatar-01.png" alt="hime@rtbf.be">
+                <h3>hum@rtbf.be</h3>
+                <span class="price">1182$</span>
+              </div>
+              <div class="col-sm-4 center" style="margin-top:-30px;">
+                <h1 class="position">1</h1><br>
+                <img src="images/avatar-02.png" alt="her@rtbf.be">
+                <h3>har@rtbf.be</h3>
+                <span class="price">3250$</span>
+              </div>
+              <div class="col-sm-4 center">
+                <h1 class="position">3</h1><br>
+                <img src="images/avatar-03.png" alt="hime@rtbf.be">
+                <h3>jkl@rtbf.be</h3>
+                <span class="price">876$</span>
+              </div>
             </div>
           </div>
-        </div></div>
-      </div> <!-- //end cf-item -->         
-    </div> <!-- // end row -->
-  </div> <!-- //end col -->
-  <div class="col-sm-6 cf-item">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="row">
-          <div class="col-sm-6 cf-item">
-            <div class="inner-content">
+        </div>
+        <div class="col-sm-3">
+          <div class="inner-content">
+            <div class="cf-item">
               <header>
-                <h2>Lorem ipsum</h2>
+                <h2>Pages par Visite</h2>
               </header>
               <div class="content">
                 <div class="cf-svmc-sparkline">
                   <div class="cf-svmc">
-                    <div class="metric">3292</div>
+                    <div class="metric">3,18</div>
                     <div class="change m-green metric-small">
                       <div class="arrow-up"></div>
-                      <span class="large">32<span class="small">.45%</span></span>
+                      <span class="large">12<span class="small">.45%</span></span>
                     </div>
                   </div>
                   <div class="cf-sparkline clearfix">
@@ -126,125 +103,278 @@
                     <div class="sparkline-value">
                       <div class="metric-small">0</div>
                     </div>
+                    <span class="meta">Last 24h</span>
                   </div>
                 </div>
-              </div></div>
-            </div> <!-- //end cf-item -->
-            <div class="col-sm-6 cf-item">
-              <div class="inner-content">
-                <header>
-                  <h2>Lorem ipsum</h2>
-                </header>
-                <div class="content">
-                  <div class="cf-rag">
-                    <div class="cf-bars">
-                      <ul>
-                        <li style="height: 30%">
-                          <div class="cf-bars-bar m-green mb"></div>
-                        </li>
-                        <li class="center" style="height: 50%">
-                          <div class="cf-bars-bar m-amber mb"></div>
-                        </li>
-                        <li style="height: 20%">
-                          <div class="cf-bars-bar m-red mb"></div>
-                        </li>
-                      </ul>           
-                    </div>
-                    <div class="cf-figs">
-                      <ul>
-                        <li>
-                          <div class="cf-figs-fig m-green"><p>30%</p></div>
-                        </li>
-                        <li class="center">
-                          <div class="cf-figs-fig m-amber"><p>60%</p></div>
-                        </li>
-                        <li>
-                          <div class="cf-figs-fig m-red"><p>20%</p></div>
-                        </li>
-                      </ul>           
-                    </div>
-                    <div class="cf-txts">
-                      <ul>
-                        <li>
-                          <div class="cf-txts-txt"><p>Success</p></div>
-                        </li>
-                        <li class="center">
-                          <div class="cf-txts-txt"><p>Bounce</p></div>
-                        </li>
-                        <li>
-                          <div class="cf-txts-txt"><p>Abandoned</p></div>
-                        </li>
-                      </ul>           
-                    </div>
-                  </div>
-                </div></div>
-              </div> <!-- //end cf-item -->
-            </div> <!-- //end row -->
-            <div class="row pad-top">
-              <div class="col-sm-6 cf-item">
-                <div class="inner-content">
-                  <header>
-                    <h2>Lorem ipsum</h2>
-                  </header>
-                  <div class="content cf-rss">
-                    <div id="cf-rss-1" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <blockquote class="twitter-tweet" lang="en"><p>Browserfrog - A responsive, HTML/CSS alternative to raster- and vector-based browser frames for screenshots: <a href="http://t.co/oGnnWgs2JA">http://t.co/oGnnWgs2JA</a></p>&mdash; WrapBootstrap (@wrapbootstrap) <a href="https://twitter.com/wrapbootstrap/statuses/339847006212194305">May 29, 2013</a></blockquote>
-                        </div>
-                        <div class="item">
-                          <blockquote class="twitter-tweet" lang="en"><p>Browserfrog - A responsive, HTML/CSS alternative to raster- and vector-based browser frames for screenshots: <a href="http://t.co/oGnnWgs2JA">http://t.co/oGnnWgs2JA</a></p>&mdash; WrapBootstrap (@wrapbootstrap) <a href="https://twitter.com/wrapbootstrap/statuses/339847006212194305">May 29, 2013</a></blockquote>
-                        </div>
-                        <div class="item">
-                          <blockquote class="twitter-tweet" lang="en"><p>Browserfrog - A responsive, HTML/CSS alternative to raster- and vector-based browser frames for screenshots: <a href="http://t.co/oGnnWgs2JA">http://t.co/oGnnWgs2JA</a></p>&mdash; WrapBootstrap (@wrapbootstrap) <a href="https://twitter.com/wrapbootstrap/statuses/339847006212194305">May 29, 2013</a></blockquote>
-                        </div>
-                      </div>
-                      <ol class="carousel-indicators">
-                        <li data-target="#cf-rss-1" data-slide-to="0" class="active"></li>
-                        <li data-target="#cf-rss-1" data-slide-to="1"></li>
-                        <li data-target="#cf-rss-1" data-slide-to="2"></li>
-                      </ol>
-                    </div>
-                  </div></div>
-                </div> <!-- //end cf-item -->
-                <div class="col-sm-6 cf-item">
-                  <div class="inner-content">
-                    <header>
-                      <h2>Lorem ipsum</h2>
-                    </header>
-                    <div class="content cf-svp clearfix" id="svp-1">
-                      <div class="chart" data-percent="72" data-layout="l-3">
-                        <div class="metrics">
-                          <span class="metric">72</span>
-                          <span class="metric-small">%</span>
-                        </div>
-                      </div>
-                    </div></div>
-                  </div> <!-- //end cf-item -->
-                </div> <!-- //end row -->           
-              </div> <!-- //end col -->
-            </div> <!-- //end row -->
-          </div> <!-- //end col -->
+              </div>
+            </div>
+          </div>
         </div>
-      </div> <!-- //end container -->
-    </div>
-    <div class="pt-page pt-page-2">
-      <h1>The Other Dashboard - Alternate mode</h1>
+      </div>
+      <div class="row pad-top">
+        <div class="col-sm-6">
+          <div class="inner-content item articles">
+      <header>
+        <h2>Articles les plus populaires</h2>
+        <ul>
+          <li><strong>4302<span>views</span></strong><a href="">"Le chanteur Jean-Luc Lahaye raconte son accident sur l'autoroute à Péruwelz"</a></li>
+          <li><strong>3831<span>views</span></strong><a href="">"Ivre avant son réveil, il croit qu'il est dans le coma depuis 10 ans (vidéo)"</a></li>
+          <li><strong>3798<span>views</span></strong><a href="">"Perquisitions chez un ancien de Sharia4Belgium: deux mandats d'arrêt"</a></li>
+          <li><strong>2153<span>views</span></strong><a href="">"Les pompiers de Liège ont-ils perdu la tête ?"</a></li>
+          <li><strong>1986<span>views</span></strong><a href="">"Laurent Louis reçoit le soutien de l'humoriste Dieudonné"</a></li>
+        </ul>
+      </header>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="inner-content item sources">
+            <header>
+              <h2>Sources</h2>
+            </header>
+            <div class="col-sm-6 cf-item">
+              <div class="content cf-svp clearfix" id="svp-2">
+                <div class="chart" data-percent="40" data-layout="l-6-4"></div>
+                <div class="metrics">
+                  <span class="metric">40</span>
+                  <span class="metric-small">%</span>
+                </div>            
+              </div>
+              <h2 class="center">Search</h2>
+            </div>
+            <div class="col-sm-6 cf-item">
+              <div class="content cf-svp clearfix" id="svp-3">
+                <div class="chart" data-percent="21" data-layout="l-6-4"></div>
+                <div class="metrics">
+                  <span class="metric">21</span>
+                  <span class="metric-small">%</span>
+                </div>            
+              </div>
+              <h2 class="center">Direct</h2>
+            </div>
+            <div class="col-sm-6 cf-item">
+              <div class="content cf-svp clearfix" id="svp-1">
+                <div class="chart" data-percent="13" data-layout="l-6-4"></div>
+                <div class="metrics">
+                  <span class="metric">13</span>
+                  <span class="metric-small">%</span>
+                </div>            
+              </div>
+              <h2 class="center">Link</h2>
+            </div>
+            <div class="col-sm-6 cf-item">
+              <div class="content cf-svp clearfix" id="svp-4">
+                <div class="chart" data-percent="26" data-layout="l-6-4"></div>
+                <div class="metrics">
+                  <span class="metric">26</span>
+                  <span class="metric-small">%</span>
+                </div>            
+              </div>
+              <h2 class="center">Social</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="inner-content localisation">
+            <div class="cf-item">
+              <header>
+                <h2>Localisation</h2>
+              </header>
+              <div class="content cf-pie" id="cf-pie-1">
+                <canvas id="cf-pie-1-c" width="0" height="0"></canvas>
+              </div>
+            </div> <!-- //end cf-item -->
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="pt-page pt-page-2">
+    <h1>The Other Dashboard - Alternate mode</h1>
+    <div class="cf-container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="inner-content">
+                <div class="cf-item">
+                  <header>
+                    <h2>Sentiment</h2>
+                  </header>
+                  <div class="content cf-gauge" id="cf-gauge-2">
+                    <div class="val-current">
+                      <div class="metric" id="cf-gauge-2-m">0</div>
+                    </div>
+                    <div class="canvas">
+                      <canvas id="cf-gauge-2-g"></canvas>
+                    </div>
+                    <div class="val-min">
+                      <div class="metric-small">0</div>
+                    </div>
+                    <div class="val-max">
+                      <div class="metric-small">0</div>
+                      <span>30 days Max</span>          
+                    </div>
+                    <h1 class="center">Visiteurs actifs</h1>
+                  </div>
+                </div> <!-- //end cf-item -->
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="inner-content item contributors">
+                <header>
+                  <h2>Top des contributeurs</h2>
+                </header>
+                <div class="row pad-top">
+                  <div class="col-sm-4 center">
+                    <h1 class="position">2</h1><br>
+                    <img src="images/avatar-01.png" alt="hime@rtbf.be">
+                    <h3>hum@rtbf.be</h3>
+                    <span class="price">1182$</span>
+                  </div>
+                  <div class="col-sm-4 center" style="margin-top:-30px;">
+                    <h1 class="position">1</h1><br>
+                    <img src="images/avatar-02.png" alt="her@rtbf.be">
+                    <h3>har@rtbf.be</h3>
+                    <span class="price">3250$</span>
+                  </div>
+                  <div class="col-sm-4 center">
+                    <h1 class="position">3</h1><br>
+                    <img src="images/avatar-03.png" alt="hime@rtbf.be">
+                    <h3>jkl@rtbf.be</h3>
+                    <span class="price">876$</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="inner-content">
+                <div class="cf-item">
+                  <header>
+                    <h2>Pages par Visite</h2>
+                  </header>
+                  <div class="content">
+                    <div class="cf-svmc-sparkline">
+                      <div class="cf-svmc">
+                        <div class="metric">3,18</div>
+                        <div class="change m-green metric-small">
+                          <div class="arrow-up"></div>
+                          <span class="large">12<span class="small">.45%</span></span>
+                        </div>
+                      </div>
+                      <div class="cf-sparkline clearfix">
+                        <div id="spark-1" class="sparkline"></div>
+                        <div class="sparkline-value">
+                          <div class="metric-small">0</div>
+                        </div>
+                        <span class="meta">Last 24h</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pad-top">
+            <div class="col-sm-6">
+              <div class="inner-content item articles">
+          <header>
+            <h2>Articles les plus populaires</h2>
+            <ul>
+              <li><strong>4302<span>views</span></strong><a href="">"Le chanteur Jean-Luc Lahaye raconte son accident sur l'autoroute à Péruwelz"</a></li>
+              <li><strong>3831<span>views</span></strong><a href="">"Ivre avant son réveil, il croit qu'il est dans le coma depuis 10 ans (vidéo)"</a></li>
+              <li><strong>3798<span>views</span></strong><a href="">"Perquisitions chez un ancien de Sharia4Belgium: deux mandats d'arrêt"</a></li>
+              <li><strong>2153<span>views</span></strong><a href="">"Les pompiers de Liège ont-ils perdu la tête ?"</a></li>
+              <li><strong>1986<span>views</span></strong><a href="">"Laurent Louis reçoit le soutien de l'humoriste Dieudonné"</a></li>
+            </ul>
+          </header>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="inner-content clearfix item gender">
+                <header>
+                  <h2>Gender</h2>
+                </header>
+                <ul>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-male"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                <li><i class="icon-female"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="inner-content localisation">
+                <div class="cf-item">
+                  <header>
+                    <h2>Localisation</h2>
+                  </header>
+                  <div class="content cf-pie" id="cf-pie-2">
+                    <canvas id="cf-pie-2-c" width="0" height="0"></canvas>
+                  </div>
+                </div> <!-- //end cf-item -->
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
 
-  <!-- JavaScript at the bottom for fast page loading -->
-  <script src="js/vendor/jquery/jquery-2.1.0-beta1.min.js"></script>
-  <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
-  <script src="js/vendor/stats/moment.js"></script> 
-  <script src="js/vendor/stats/easypiechart.js"></script>
-  <script src="js/vendor/stats/gauge.js"></script>  
-  <script src="js/vendor/stats/chart.js"></script>
-  <script src="js/vendor/stats/jquery.sparklines.js"></script>      
-  <script>
-  var themeColour = 'black';
-  </script>
-  <script src="js/vendor/stats/controlfrog.js"></script>
-  <script src="js/vendor/transitions/pagetransitions.js"></script>
+<!-- JavaScript at the bottom for fast page loading -->
+<script src="js/vendor/jquery/jquery-2.1.0-beta1.min.js"></script>
+<script src="js/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="js/vendor/stats/moment.js"></script> 
+<script src="js/vendor/stats/easypiechart.js"></script>
+<script src="js/vendor/stats/gauge.js"></script>  
+<script src="js/vendor/stats/chart.js"></script>
+<script src="js/vendor/stats/jquery.sparklines.js"></script>      
+<script>
+var themeColour = 'black';
+</script>
+<script src="js/vendor/stats/controlfrog.js"></script>
+<script src="js/vendor/transitions/pagetransitions.js"></script>
 </body>
 </html>
