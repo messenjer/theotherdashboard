@@ -15,6 +15,7 @@
     "excel": "0.0.60",
     "unirest": "0.0.9",
     "fbgraph": "~0.2.8",
-    "googleapis": "~0.4.6"
+    "googleapis": "~0.4.6",
+    "underscore": "~1.5.2"
   }
 }
