@@ -1,9 +1,10 @@
 var util = require('util');
+var _ = require('underscore');
 
 var getWordIndexList = function (text) {
   var index = {},
       words = text
-              .replace(/[.,?!;()"'-]/g, " ")
+              .replace(/[.,?!;()"'’-]/g, " ")
               .replace(/\s+/g, " ")
               .toLowerCase()
               .split(" ");
@@ -76,3 +77,35 @@ var getSocialCount = function (url, callback) {
 }
 
 module.exports.getSocialCount = getSocialCount;
+
+var getGenderScore = function (text, callback) {
+
+  var firstnameDataList = require('./data/firstname-ethnic.json');
+  var womanCount = 0;
+  var manCount = 0;
+
+  wordIndexList = getWordIndexList(text);
+  _.each(wordIndexList, function (element, index, list) {
+    if ( firstnameDataList[index] ) {
+      var gender = firstnameDataList[index].gender;
+      if ( gender == 'm' ) {
+        manCount += element;
+      } else if ( gender == 'f' ) {
+        womanCount += element;
+      } else {
+        womanCount += element;
+        manCount += element;
+      }
+    }
+  });
+
+  var result = { 'woman' : womanCount, 'man' : manCount };
+  callback(result);
+
+}
+module.exports.getGenderScore = getGenderScore;
+
+var getEthnicScore = function (text, callback) {
+
+}  
+module.exports.getEthnicScore = getEthnicScore;

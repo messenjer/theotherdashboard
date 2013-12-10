@@ -27,9 +27,11 @@ var Request = unirest.get(urlAPI)
       url = 'http:' + url.replace('www.local.','www.');
       console.log('Article ' + article.id + ' - 1 : Url : ' + url);  
 
-      getArticleWordIndexList(article);
-      getArticleSentimentScore(article);
-      getArticleSocialCount(article);
+      //getArticleWordIndexList(article);
+      //getArticleSentimentScore(article);
+      //getArticleSocialCount(article);
+      getArticleGenderScore(article);
+      //getArticleEthnicScore(article);
 
       console.log('Article ' + article.id + ' --------------------');
 
@@ -62,5 +64,23 @@ var getArticleSocialCount = function (article) {
     hack.getSocialCount(url,function (data) { 
       console.log('Article ' + article.id + ' - 4 : Social count : ' + JSON.stringify(data));
     });
+
+}
+
+var getArticleGenderScore = function (article) {
+
+  var articleText = article.title + article.description;
+  hack.getGenderScore(articleText, function (data) {
+    console.log('Article ' + article.id + ' - 5 : Gender score : ' + JSON.stringify(data));
+  });  
+
+}
+
+var getArticleEthnicScore = function (article) {
+
+  var articleText = article.title + article.description;
+  hack.getEthnicScore(articleText, function (data) {
+    console.log('Article ' + article.id + ' - 6 : Ethnic score : ' + JSON.stringify(data));
+  });  
 
 }
