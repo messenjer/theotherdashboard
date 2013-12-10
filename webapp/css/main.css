@@ -77,6 +77,7 @@
    margin-right:15px;
    line-height: 1;
    text-align: center;
+   min-height: 50px;
 }
 .articles ul li strong span {
    font-size:18px;
@@ -94,8 +95,9 @@
 .item .price {
    font-size: 40px;
    color: #fff;
+   display: block;
 }
-.item.contributors, .sources {
+.item.contributors, .sources, .item.com-leaders {
    min-height: 449px;
 }
 .sources .cf-item {
@@ -127,9 +129,21 @@
    color: #0099ff;
 }
 
-
-
-
+.feeling i {
+   position: absolute;
+   font-size: 60px;
+}
+.feeling i.icon-thumbs-down {
+   left: 30px;
+   color: #cc0000;
+}
+.feeling i.icon-thumbs-up {
+   right: 30px;
+   color: #66ce39;
+}
+.com-leaders .price + span {
+   font-size: 18px;
+}
 
 
 
