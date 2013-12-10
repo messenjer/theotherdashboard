@@ -83,4 +83,13 @@ Ethnic score : {"blanc":20,"noir":0,"arabe":1,"asiatique":0} --> total 21
 
 Because sometimes firstname is used for woman and boy, so we increment each one. 
 
-
+```javascript
+      if ( gender == 'm' ) {
+        manCount += occurrence;
+      } else if ( gender == 'f' ) {
+        womanCount += occurrence;
+      } else { // 'm,f'
+        womanCount += occurrence;
+        manCount += occurrence;
+      }
+```
