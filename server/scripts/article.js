@@ -26,15 +26,12 @@ var Request = unirest.get(urlAPI)
       var url = article.url;
       url = 'http:' + url.replace('www.local.','www.');
       console.log('Article ' + article.id + ' - 1 : Url : ' + url);  
-
-      //getArticleWordIndexList(article);
-      //getArticleSentimentScore(article);
-      //getArticleSocialCount(article);
+      getArticleWordIndexList(article);
+      getArticleSentimentScore(article);
+      getArticleSocialCount(article);
       getArticleGenderScore(article);
-      //getArticleEthnicScore(article);
-
+      getArticleEthnicScore(article);
       console.log('Article ' + article.id + ' --------------------');
-
     }
 
   });
