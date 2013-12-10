@@ -64,12 +64,14 @@
    margin: 0;
    padding: 0;
    list-style: none;
-   font-size: 24px;
-   margin-top: -2px;
+   font-size: 28px;
+   line-height: 1.2;
+   margin-top: 19px;
 }
 .articles ul li {
    clear: both;
    padding: 10px 0;
+   text-transform: none;
 }
 .articles ul li strong{
    font-size: 32px;
@@ -114,6 +116,7 @@
 .gender ul {
    margin: 40px 0 3px 0;
    padding: 0;
+   overflow: hidden;
 }
 .gender li {
    font-size: 50px;
@@ -122,11 +125,17 @@
    float: left;
    list-style: none;
 }
-.gender li .icon-female {
+.gender li .icon-female, .female {
    color: #ff0099;
 }
-.gender li .icon-male {
+.gender li .icon-male, .male {
    color: #0099ff;
+}
+
+.gender h1 {
+   position: absolute;
+   right: 15px;
+   top:0;
 }
 
 .feeling i {
@@ -135,7 +144,7 @@
 }
 .feeling i.icon-thumbs-down {
    left: 30px;
-   color: #cc0000;
+   color: #f23c25;
 }
 .feeling i.icon-thumbs-up {
    right: 30px;
