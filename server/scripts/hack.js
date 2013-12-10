@@ -1,9 +1,5 @@
 var util = require('util');
 
-/**
- * 
- */
-
 var getWordIndexList = function (text) {
   var index = {},
       words = text
@@ -73,6 +69,7 @@ var getSocialCount = function (url, callback) {
       result.facebook = data.Facebook.total_count;
       result.twitter = data.Twitter;
       result.share = data.Twitter + data.Facebook.share_count;
+      result.total = result.facebook + result.twitter;
       callback(result);
     });
 
