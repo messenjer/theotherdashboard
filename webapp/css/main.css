@@ -54,6 +54,9 @@
     height: 100%;
     overflow: hidden;
  }
+ .center img {
+   width: 50%;
+ }
  .meta {
    font-size:2em;
    position: absolute;
