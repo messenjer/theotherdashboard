@@ -1,160 +1,160 @@
+Article 8153297 --------------------
 Article 8153297 - 0 : Title : Travailleurs détachés: accord des ministres européens dans un dossier délicat
 Article 8153297 - 1 : Url : http://www.rtbf.be/info/societe/detail_travailleurs-detaches-les-ministres-europeens-analysent-le-probleme?id=8153297
 Article 8153297 - 2 : Different words count : 366
+Article 8153297 - 3 : Sentiment score : {"label":"neutral","positive":"54.2%","neutral":"86.4%","negative":"45.8%"}
+Article 8153297 - 4 : Social count : {"facebook":51,"twitter":4,"share":15,"total":55}
 Article 8153297 - 5 : Gender score : {"woman":4,"man":8}
 Article 8153297 - 6 : Ethnic score : {"blanc":11,"noir":0,"arabe":0,"asiatique":0}
-Article 8153297 --------------------
-Article 8153863 - 0 : Title : Syrie: les USA auraient caché que des djihadistes pouvaient produire du sarin
-Article 8153863 - 1 : Url : http://www.rtbf.be/info/medias/detail_syrie-les-usa-auraient-cache-qu-un-groupe-djihadiste-pouvait-produire-du-sarin?id=8153863
-Article 8153863 - 2 : Different words count : 146
-Article 8153863 - 5 : Gender score : {"woman":1,"man":7}
-Article 8153863 - 6 : Ethnic score : {"blanc":3,"noir":0,"arabe":3,"asiatique":0}
-Article 8153863 --------------------
-Article 8153722 - 0 : Title : Pas de plan de réhabilitation pour M. Lelièvre, une autre solution à l'étude
-Article 8153722 - 1 : Url : http://www.rtbf.be/info/societe/detail_pas-de-plan-de-rehabilitation-pour-m-lelievre-decision-du-tap-le-23-12?id=8153722
-Article 8153722 - 2 : Different words count : 144
-Article 8153722 - 5 : Gender score : {"woman":0,"man":11}
-Article 8153722 - 6 : Ethnic score : {"blanc":10,"noir":0,"arabe":0,"asiatique":0}
-Article 8153722 --------------------
-Article 8153346 - 0 : Title : ArcelorMittal: les sites de Kessales et Ramet reprennent mardi, pas Tilleur
-Article 8153346 - 1 : Url : http://www.rtbf.be/info/regions/detail_arcelormittal-les-syndicats-presentent-le-preaccord-aux-travailleurs?id=8153346
-Article 8153346 - 2 : Different words count : 226
-Article 8153346 - 5 : Gender score : {"woman":5,"man":4}
-Article 8153346 - 6 : Ethnic score : {"blanc":7,"noir":0,"arabe":0,"asiatique":0}
-Article 8153346 --------------------
-Article 8153849 - 0 : Title : Les preuves d'un lac d'eau douce sur Mars ramenées par Curiosity
-Article 8153849 - 1 : Url : http://www.rtbf.be/info/societe/detail_les-preuves-d-un-lac-d-eau-douce-sur-mars-ramenees-par-curiosity?id=8153849
-Article 8153849 - 2 : Different words count : 169
-Article 8153849 - 5 : Gender score : {"woman":0,"man":5}
-Article 8153849 - 6 : Ethnic score : {"blanc":4,"noir":0,"arabe":0,"asiatique":1}
-Article 8153849 --------------------
-Article 8153523 - 0 : Title : Ukraine: la police repousse les manifestants, V. Ianoukovitch dit vouloir discuter
-Article 8153523 - 1 : Url : http://www.rtbf.be/info/monde/detail_ukraine-catherine-ashton-tente-une-conciliation-informelle-a-kiev?id=8153523
-Article 8153523 - 2 : Different words count : 352
-Article 8153523 - 5 : Gender score : {"woman":11,"man":14}
-Article 8153523 - 6 : Ethnic score : {"blanc":20,"noir":0,"arabe":0,"asiatique":0}
-Article 8153523 --------------------
+Article 8153327 --------------------
 Article 8153327 - 0 : Title : Perquisitions chez un ancien de Saharia4Belgium: deux mandats d'arrêt
 Article 8153327 - 1 : Url : http://www.rtbf.be/info/societe/detail_perquisitions-chez-un-ancien-leader-de-sharia4belgium?id=8153327
 Article 8153327 - 2 : Different words count : 295
+Article 8153327 - 3 : Sentiment score : {"label":"neutral","positive":"51.1%","neutral":"79.8%","negative":"48.9%"}
+Article 8153327 - 4 : Social count : {"facebook":484,"twitter":16,"share":142,"total":500}
 Article 8153327 - 5 : Gender score : {"woman":8,"man":17}
 Article 8153327 - 6 : Ethnic score : {"blanc":20,"noir":0,"arabe":1,"asiatique":0}
-Article 8153327 --------------------
+Article 8153346 --------------------
+Article 8153346 - 0 : Title : ArcelorMittal: les sites de Kessales et Ramet reprennent mardi, pas Tilleur
+Article 8153346 - 1 : Url : http://www.rtbf.be/info/regions/detail_arcelormittal-les-syndicats-presentent-le-preaccord-aux-travailleurs?id=8153346
+Article 8153346 - 2 : Different words count : 226
+Article 8153346 - 3 : Sentiment score : {"label":"neutral","positive":"56.4%","neutral":"80.7%","negative":"43.6%"}
+Article 8153346 - 4 : Social count : {"facebook":7,"twitter":1,"share":6,"total":8}
+Article 8153346 - 5 : Gender score : {"woman":5,"man":4}
+Article 8153346 - 6 : Ethnic score : {"blanc":7,"noir":0,"arabe":0,"asiatique":0}
+Article 8153512 --------------------
 Article 8153512 - 0 : Title : Bruxelles: la discothèque K-Nal évacuée et fermée 
 Article 8153512 - 1 : Url : http://www.rtbf.be/info/regions/detail_bruxelles-la-discotheque-k-nal-evacuee-et-fermee-pour-des-questions-de-securite-publique?id=8153512
 Article 8153512 - 2 : Different words count : 122
+Article 8153512 - 3 : Sentiment score : {"label":"neutral","positive":"52.7%","neutral":"90.5%","negative":"47.3%"}
+Article 8153512 - 4 : Social count : {"facebook":2,"twitter":3,"share":3,"total":5}
 Article 8153512 - 5 : Gender score : {"woman":3,"man":2}
 Article 8153512 - 6 : Ethnic score : {"blanc":4,"noir":0,"arabe":0,"asiatique":0}
-Article 8153512 --------------------
-Article 8153653 - 0 : Title : Les Palestiniens contre les solutions transitoires américaines
-Article 8153653 - 1 : Url : http://www.rtbf.be/info/monde/detail_les-palestiniens-refusent-les-solutions-transitoires-et-reclament-une-souverainete-complete?id=8153653
-Article 8153653 - 2 : Different words count : 290
-Article 8153653 - 5 : Gender score : {"woman":6,"man":19}
-Article 8153653 - 6 : Ethnic score : {"blanc":16,"noir":0,"arabe":3,"asiatique":0}
-Article 8153653 --------------------
-Article 8153746 - 0 : Title : Rue89 perd son identité dans Le Nouvel Obs, ses journalistes en grève
-Article 8153746 - 1 : Url : http://www.rtbf.be/info/medias/detail_rue89-perd-son-identite-dans-le-nouvel-obs-ses-journalistes-en-greve?id=8153746
-Article 8153746 - 2 : Different words count : 135
-Article 8153746 - 5 : Gender score : {"woman":3,"man":2}
-Article 8153746 - 6 : Ethnic score : {"blanc":3,"noir":0,"arabe":0,"asiatique":0}
-Article 8153746 --------------------
+Article 8153523 --------------------
+Article 8153523 - 0 : Title : Ukraine: la police repousse les manifestants, V. Ianoukovitch dit vouloir discuter
+Article 8153523 - 1 : Url : http://www.rtbf.be/info/monde/detail_ukraine-catherine-ashton-tente-une-conciliation-informelle-a-kiev?id=8153523
+Article 8153523 - 2 : Different words count : 352
+Article 8153523 - 3 : Sentiment score : {"label":"neutral","positive":"50.9%","neutral":"88.6%","negative":"49.1%"}
+Article 8153523 - 4 : Social count : {"facebook":3,"twitter":5,"share":7,"total":8}
+Article 8153523 - 5 : Gender score : {"woman":11,"man":14}
+Article 8153523 - 6 : Ethnic score : {"blanc":20,"noir":0,"arabe":0,"asiatique":0}
+Article 8153581 --------------------
 Article 8153581 - 0 : Title : Les voyageurs pourront utiliser leurs appareils électroniques en avion
 Article 8153581 - 1 : Url : http://www.rtbf.be/info/economie/detail_les-voyageurs-pourront-a-utiliser-leurs-appareils-electroniques-en-avion?id=8153581
 Article 8153581 - 2 : Different words count : 169
+Article 8153581 - 3 : Sentiment score : {"label":"neutral","positive":"55.5%","neutral":"83.2%","negative":"44.5%"}
+Article 8153581 - 4 : Social count : {"facebook":132,"twitter":7,"share":43,"total":139}
 Article 8153581 - 5 : Gender score : {"woman":3,"man":0}
 Article 8153581 - 6 : Ethnic score : {"blanc":3,"noir":0,"arabe":0,"asiatique":0}
-Article 8153581 --------------------
-Article 8153793 - 0 : Title : Trois phoques gris échoués à la Côte après le passage de Xaver
-Article 8153793 - 1 : Url : http://www.rtbf.be/info/societe/detail_trois-phoques-gris-echoues-a-la-cote-apres-le-passage-de-xaver?id=8153793
-Article 8153793 - 2 : Different words count : 78
-Article 8153793 - 5 : Gender score : {"woman":1,"man":2}
-Article 8153793 - 6 : Ethnic score : {"blanc":2,"noir":0,"arabe":0,"asiatique":0}
-Article 8153793 --------------------
-Article 8153700 - 0 : Title : François Englert, le Nobel belge à Stockholm
-Article 8153700 - 1 : Url : http://www.rtbf.be/info/societe/detail_francois-englert-le-nobel-belge-a-stockholm?id=8153700
-Article 8153700 - 2 : Different words count : 220
-Article 8153700 - 5 : Gender score : {"woman":4,"man":11}
-Article 8153700 - 6 : Ethnic score : {"blanc":13,"noir":0,"arabe":0,"asiatique":0}
-Article 8153700 --------------------
-Article 8153794 - 0 : Title : Etats-Unis: un million de données de mobiles fournies à la justice en 2012
-Article 8153794 - 1 : Url : http://www.rtbf.be/info/medias/detail_etats-unis-un-million-de-donnees-de-mobiles-fournies-a-la-justice-en-2012?id=8153794
-Article 8153794 - 2 : Different words count : 184
-Article 8153794 - 5 : Gender score : {"woman":4,"man":7}
-Article 8153794 - 6 : Ethnic score : {"blanc":7,"noir":0,"arabe":0,"asiatique":0}
-Article 8153794 --------------------
-Article 8153674 - 0 : Title : Dossier Wesphael : la fille du député wallon regrette les "dérives médiatiques"
-Article 8153674 - 1 : Url : http://www.rtbf.be/info/societe/detail_dossier-wesphael-la-famille-de-la-victime-veut-acceder-aux-conclusions-des-experts?id=8153674
-Article 8153674 - 2 : Different words count : 266
-Article 8153674 - 5 : Gender score : {"woman":12,"man":9}
-Article 8153674 - 6 : Ethnic score : {"blanc":16,"noir":0,"arabe":0,"asiatique":0}
-Article 8153674 --------------------
+Article 8153647 --------------------
 Article 8153647 - 0 : Title : Premières mesures européennes pour l'intégration des Roms en Europe
 Article 8153647 - 1 : Url : http://www.rtbf.be/info/monde/detail_premieres-mesures-europeennes-pour-l-integration-des-roms-en-europe?id=8153647
 Article 8153647 - 2 : Different words count : 132
+Article 8153647 - 3 : Sentiment score : {"label":"neutral","positive":"56.5%","neutral":"84.4%","negative":"43.5%"}
+Article 8153647 - 4 : Social count : {"facebook":180,"twitter":22,"share":99,"total":202}
 Article 8153647 - 5 : Gender score : {"woman":2,"man":1}
 Article 8153647 - 6 : Ethnic score : {"blanc":2,"noir":0,"arabe":0,"asiatique":0}
-Article 8153647 --------------------
+Article 8153653 --------------------
+Article 8153653 - 0 : Title : Les Palestiniens contre les solutions transitoires américaines
+Article 8153653 - 1 : Url : http://www.rtbf.be/info/monde/detail_les-palestiniens-refusent-les-solutions-transitoires-et-reclament-une-souverainete-complete?id=8153653
+Article 8153653 - 2 : Different words count : 290
+Article 8153653 - 3 : Sentiment score : {"label":"neutral","positive":"51.6%","neutral":"89.4%","negative":"48.4%"}
+Article 8153653 - 4 : Social count : {"facebook":0,"twitter":6,"share":6,"total":6}
+Article 8153653 - 5 : Gender score : {"woman":6,"man":19}
+Article 8153653 - 6 : Ethnic score : {"blanc":16,"noir":0,"arabe":3,"asiatique":0}
+Article 8153663 --------------------
 Article 8153663 - 0 : Title : Un jeune Belge de Vilvorde, âgé de 19 ans, est décédé en Syrie
 Article 8153663 - 1 : Url : http://www.rtbf.be/info/belgique/detail_un-jeune-belge-de-vilvorde-age-de-19-ans-est-decede-en-syrie?id=8153663
 Article 8153663 - 2 : Different words count : 99
+Article 8153663 - 3 : Sentiment score : {"label":"neutral","positive":"62.6%","neutral":"69.6%","negative":"37.4%"}
+Article 8153663 - 4 : Social count : {"facebook":53,"twitter":5,"share":14,"total":58}
 Article 8153663 - 5 : Gender score : {"woman":1,"man":4}
 Article 8153663 - 6 : Ethnic score : {"blanc":5,"noir":0,"arabe":0,"asiatique":0}
-Article 8153663 --------------------
-Article 8153738 - 0 : Title : 30% des Grecs vivent désormais sans couverture sociale
-Article 8153738 - 1 : Url : http://www.rtbf.be/info/societe/detail_30-des-grecs-vivent-desormais-sans-couverture-sociale?id=8153738
-Article 8153738 - 2 : Different words count : 167
-Article 8153738 - 5 : Gender score : {"woman":5,"man":8}
-Article 8153738 - 6 : Ethnic score : {"blanc":5,"noir":0,"arabe":0,"asiatique":0}
-Article 8153738 --------------------
+Article 8153674 --------------------
+Article 8153674 - 0 : Title : Dossier Wesphael : la fille du député wallon regrette les "dérives médiatiques"
+Article 8153674 - 1 : Url : http://www.rtbf.be/info/societe/detail_dossier-wesphael-la-famille-de-la-victime-veut-acceder-aux-conclusions-des-experts?id=8153674
+Article 8153674 - 2 : Different words count : 266
+Article 8153674 - 3 : Sentiment score : {"label":"neutral","positive":"54.8%","neutral":"76.7%","negative":"45.2%"}
+Article 8153674 - 4 : Social count : {"facebook":1,"twitter":4,"share":5,"total":5}
+Article 8153674 - 5 : Gender score : {"woman":12,"man":9}
+Article 8153674 - 6 : Ethnic score : {"blanc":16,"noir":0,"arabe":0,"asiatique":0}
+Article 8153700 --------------------
+Article 8153700 - 0 : Title : François Englert, le Nobel belge à Stockholm
+Article 8153700 - 1 : Url : http://www.rtbf.be/info/societe/detail_francois-englert-le-nobel-belge-a-stockholm?id=8153700
+Article 8153700 - 2 : Different words count : 220
+Article 8153700 - 3 : Sentiment score : {"label":"neutral","positive":"55.7%","neutral":"80.6%","negative":"44.3%"}
+Article 8153700 - 4 : Social count : {"facebook":15,"twitter":3,"share":11,"total":18}
+Article 8153700 - 5 : Gender score : {"woman":4,"man":11}
+Article 8153700 - 6 : Ethnic score : {"blanc":13,"noir":0,"arabe":0,"asiatique":0}
+Article 8153715 --------------------
 Article 8153715 - 0 : Title : Quand la direction de Caterpillar veut à tout prix faire passer un message
 Article 8153715 - 1 : Url : http://www.rtbf.be/info/medias/detail_quand-la-direction-de-caterpillar-veut-a-tout-prix-faire-passer-un-message?id=8153715
 Article 8153715 - 2 : Different words count : 185
+Article 8153715 - 3 : Sentiment score : {"label":"neutral","positive":"54.9%","neutral":"76.6%","negative":"45.1%"}
+Article 8153715 - 4 : Social count : {"facebook":249,"twitter":6,"share":87,"total":255}
 Article 8153715 - 5 : Gender score : {"woman":1,"man":3}
 Article 8153715 - 6 : Ethnic score : {"blanc":3,"noir":0,"arabe":0,"asiatique":0}
-Article 8153715 --------------------
+Article 8153722 --------------------
+Article 8153722 - 0 : Title : Pas de plan de réhabilitation pour M. Lelièvre, une autre solution à l'étude
+Article 8153722 - 1 : Url : http://www.rtbf.be/info/societe/detail_pas-de-plan-de-rehabilitation-pour-m-lelievre-decision-du-tap-le-23-12?id=8153722
+Article 8153722 - 2 : Different words count : 144
+Article 8153722 - 3 : Sentiment score : {"label":"neutral","positive":"52.5%","neutral":"90.8%","negative":"47.5%"}
+Article 8153722 - 4 : Social count : {"facebook":1,"twitter":4,"share":5,"total":5}
+Article 8153722 - 5 : Gender score : {"woman":0,"man":11}
+Article 8153722 - 6 : Ethnic score : {"blanc":10,"noir":0,"arabe":0,"asiatique":0}
+Article 8153738 --------------------
+Article 8153738 - 0 : Title : 30% des Grecs vivent désormais sans couverture sociale
+Article 8153738 - 1 : Url : http://www.rtbf.be/info/societe/detail_30-des-grecs-vivent-desormais-sans-couverture-sociale?id=8153738
+Article 8153738 - 2 : Different words count : 167
+Article 8153738 - 3 : Sentiment score : {"label":"neutral","positive":"53.4%","neutral":"88.5%","negative":"46.6%"}
+Article 8153738 - 4 : Social count : {"facebook":337,"twitter":29,"share":141,"total":366}
+Article 8153738 - 5 : Gender score : {"woman":5,"man":8}
+Article 8153738 - 6 : Ethnic score : {"blanc":5,"noir":0,"arabe":0,"asiatique":0}
+Article 8153746 --------------------
+Article 8153746 - 0 : Title : Rue89 perd son identité dans Le Nouvel Obs, ses journalistes en grève
+Article 8153746 - 1 : Url : http://www.rtbf.be/info/medias/detail_rue89-perd-son-identite-dans-le-nouvel-obs-ses-journalistes-en-greve?id=8153746
+Article 8153746 - 2 : Different words count : 135
+Article 8153746 - 3 : Sentiment score : {"label":"neutral","positive":"61.2%","neutral":"67.1%","negative":"38.8%"}
+Article 8153746 - 4 : Social count : {"facebook":0,"twitter":11,"share":11,"total":11}
+Article 8153746 - 5 : Gender score : {"woman":3,"man":2}
+Article 8153746 - 6 : Ethnic score : {"blanc":3,"noir":0,"arabe":0,"asiatique":0}
+Article 8153778 --------------------
 Article 8153778 - 0 : Title : Ivre avant son réveil, il croit qu'il est dans le coma depuis 10 ans (vidéo)
 Article 8153778 - 1 : Url : http://www.rtbf.be/info/etcetera/detail_ivre-avant-son-reveil-il-croit-qu-il-est-dans-le-coma-depuis-10-ans-video?id=8153778
 Article 8153778 - 2 : Different words count : 121
+Article 8153778 - 3 : Sentiment score : {"label":"neutral","positive":"56.5%","neutral":"70%","negative":"43.5%"}
+Article 8153778 - 4 : Social count : {"facebook":1122,"twitter":14,"share":319,"total":1136}
 Article 8153778 - 5 : Gender score : {"woman":2,"man":4}
 Article 8153778 - 6 : Ethnic score : {"blanc":5,"noir":0,"arabe":0,"asiatique":0}
-Article 8153778 --------------------
-Article 8153297 - 4 : Social count : {"facebook":51,"twitter":4,"share":15,"total":55}
-Article 8153523 - 4 : Social count : {"facebook":3,"twitter":5,"share":7,"total":8}
-Article 8153297 - 3 : Sentiment score : {"label":"neutral","positive":"54.2%","neutral":"86.4%","negative":"45.8%"}
-Article 8153849 - 3 : Sentiment score : {"label":"neutral","positive":"61.7%","neutral":"76.5%","negative":"38.3%"}
-Article 8153722 - 3 : Sentiment score : {"label":"neutral","positive":"52.5%","neutral":"90.8%","negative":"47.5%"}
-Article 8153863 - 3 : Sentiment score : {"label":"neutral","positive":"48.8%","neutral":"84.4%","negative":"51.2%"}
-Article 8153346 - 3 : Sentiment score : {"label":"neutral","positive":"56.4%","neutral":"80.7%","negative":"43.6%"}
-Article 8153327 - 3 : Sentiment score : {"label":"neutral","positive":"51.1%","neutral":"79.8%","negative":"48.9%"}
-Article 8153523 - 3 : Sentiment score : {"label":"neutral","positive":"50.9%","neutral":"88.6%","negative":"49.1%"}
-Article 8153849 - 4 : Social count : {"facebook":9,"twitter":8,"share":13,"total":17}
-Article 8153512 - 3 : Sentiment score : {"label":"neutral","positive":"52.7%","neutral":"90.5%","negative":"47.3%"}
-Article 8153327 - 4 : Social count : {"facebook":484,"twitter":16,"share":142,"total":500}
-Article 8153746 - 3 : Sentiment score : {"label":"neutral","positive":"61.2%","neutral":"67.1%","negative":"38.8%"}
-Article 8153581 - 3 : Sentiment score : {"label":"neutral","positive":"55.5%","neutral":"83.2%","negative":"44.5%"}
+Article 8153793 --------------------
+Article 8153793 - 0 : Title : Trois phoques gris échoués à la Côte après le passage de Xaver
+Article 8153793 - 1 : Url : http://www.rtbf.be/info/societe/detail_trois-phoques-gris-echoues-a-la-cote-apres-le-passage-de-xaver?id=8153793
+Article 8153793 - 2 : Different words count : 78
 Article 8153793 - 3 : Sentiment score : {"label":"neutral","positive":"46.8%","neutral":"79.6%","negative":"53.2%"}
-Article 8153700 - 3 : Sentiment score : {"label":"neutral","positive":"55.7%","neutral":"80.6%","negative":"44.3%"}
-Article 8153653 - 3 : Sentiment score : {"label":"neutral","positive":"51.6%","neutral":"89.4%","negative":"48.4%"}
-Article 8153794 - 3 : Sentiment score : {"label":"pos","positive":"53.3%","neutral":"26.9%","negative":"46.7%"}
-Article 8153674 - 3 : Sentiment score : {"label":"neutral","positive":"54.8%","neutral":"76.7%","negative":"45.2%"}
-Article 8153647 - 3 : Sentiment score : {"label":"neutral","positive":"56.5%","neutral":"84.4%","negative":"43.5%"}
-Article 8153663 - 3 : Sentiment score : {"label":"neutral","positive":"62.6%","neutral":"69.6%","negative":"37.4%"}
-Article 8153738 - 3 : Sentiment score : {"label":"neutral","positive":"53.4%","neutral":"88.5%","negative":"46.6%"}
-Article 8153778 - 3 : Sentiment score : {"label":"neutral","positive":"56.5%","neutral":"70%","negative":"43.5%"}
-Article 8153715 - 3 : Sentiment score : {"label":"neutral","positive":"54.9%","neutral":"76.6%","negative":"45.1%"}
-Article 8153863 - 4 : Social count : {"facebook":94,"twitter":17,"share":46,"total":111}
-Article 8153722 - 4 : Social count : {"facebook":1,"twitter":4,"share":5,"total":5}
-Article 8153581 - 4 : Social count : {"facebook":132,"twitter":7,"share":43,"total":139}
-Article 8153746 - 4 : Social count : {"facebook":0,"twitter":11,"share":11,"total":11}
-Article 8153700 - 4 : Social count : {"facebook":15,"twitter":3,"share":11,"total":18}
 Article 8153793 - 4 : Social count : {"facebook":5,"twitter":0,"share":0,"total":5}
-Article 8153674 - 4 : Social count : {"facebook":1,"twitter":4,"share":5,"total":5}
-Article 8153647 - 4 : Social count : {"facebook":180,"twitter":22,"share":99,"total":202}
-Article 8153663 - 4 : Social count : {"facebook":53,"twitter":5,"share":14,"total":58}
-Article 8153738 - 4 : Social count : {"facebook":337,"twitter":29,"share":141,"total":366}
-Article 8153715 - 4 : Social count : {"facebook":249,"twitter":6,"share":87,"total":255}
-Article 8153778 - 4 : Social count : {"facebook":1122,"twitter":14,"share":319,"total":1136}
-Article 8153346 - 4 : Social count : {"facebook":7,"twitter":1,"share":6,"total":8}
-Article 8153512 - 4 : Social count : {"facebook":2,"twitter":3,"share":3,"total":5}
-Article 8153653 - 4 : Social count : {"facebook":0,"twitter":6,"share":6,"total":6}
+Article 8153793 - 5 : Gender score : {"woman":1,"man":2}
+Article 8153793 - 6 : Ethnic score : {"blanc":2,"noir":0,"arabe":0,"asiatique":0}
+Article 8153794 --------------------
+Article 8153794 - 0 : Title : Etats-Unis: un million de données de mobiles fournies à la justice en 2012
+Article 8153794 - 1 : Url : http://www.rtbf.be/info/medias/detail_etats-unis-un-million-de-donnees-de-mobiles-fournies-a-la-justice-en-2012?id=8153794
+Article 8153794 - 2 : Different words count : 184
+Article 8153794 - 3 : Sentiment score : {"label":"pos","positive":"53.3%","neutral":"26.9%","negative":"46.7%"}
 Article 8153794 - 4 : Social count : {"facebook":1,"twitter":4,"share":5,"total":5}
+Article 8153794 - 5 : Gender score : {"woman":4,"man":7}
+Article 8153794 - 6 : Ethnic score : {"blanc":7,"noir":0,"arabe":0,"asiatique":0}
+Article 8153849 --------------------
+Article 8153849 - 0 : Title : Les preuves d'un lac d'eau douce sur Mars ramenées par Curiosity
+Article 8153849 - 1 : Url : http://www.rtbf.be/info/societe/detail_les-preuves-d-un-lac-d-eau-douce-sur-mars-ramenees-par-curiosity?id=8153849
+Article 8153849 - 2 : Different words count : 169
+Article 8153849 - 3 : Sentiment score : {"label":"neutral","positive":"61.7%","neutral":"76.5%","negative":"38.3%"}
+Article 8153849 - 4 : Social count : {"facebook":9,"twitter":8,"share":13,"total":17}
+Article 8153849 - 5 : Gender score : {"woman":0,"man":5}
+Article 8153849 - 6 : Ethnic score : {"blanc":4,"noir":0,"arabe":0,"asiatique":1}
+Article 8153863 --------------------
+Article 8153863 - 0 : Title : Syrie: les USA auraient caché que des djihadistes pouvaient produire du sarin
+Article 8153863 - 1 : Url : http://www.rtbf.be/info/medias/detail_syrie-les-usa-auraient-cache-qu-un-groupe-djihadiste-pouvait-produire-du-sarin?id=8153863
+Article 8153863 - 2 : Different words count : 146
+Article 8153863 - 3 : Sentiment score : {"label":"neutral","positive":"48.8%","neutral":"84.4%","negative":"51.2%"}
+Article 8153863 - 4 : Social count : {"facebook":94,"twitter":17,"share":46,"total":111}
+Article 8153863 - 5 : Gender score : {"woman":1,"man":7}
+Article 8153863 - 6 : Ethnic score : {"blanc":3,"noir":0,"arabe":3,"asiatique":0}
