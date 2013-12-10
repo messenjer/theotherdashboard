@@ -18,9 +18,15 @@ var Request = unirest.get(urlAPI)
       article = articleList[_i];
       console.log(article.title);
 
-      // Count word
-      var wordIndexList = hack.countWords(article.title + article.description);
+      // Get word index list
+      var articleText = article.title + article.description;
+      var wordIndexList = hack.getWordIndexList(articleText);
       console.log('Different words count : ' + _.size(wordIndexList));
+
+      // Get sentiment score
+      hack.getSentimentScore(articleText, function (data) {
+        console.log('Sentiment score : ' + JSON.stringify(data));
+      });
 
       // Get social count
       var url = article.url;

@@ -1,6 +1,10 @@
-// String
+var util = require('util');
 
-module.exports.countWords = function (text) {
+/**
+ * 
+ */
+
+var getWordIndexList = function (text) {
   var index = {},
       words = text
               .replace(/[.,?!;()"'-]/g, " ")
@@ -20,12 +24,39 @@ module.exports.countWords = function (text) {
     return index;
 }
 
-module.exports.getSentimentScore = function (text) {
+module.exports.getWordIndexList = getWordIndexList;
 
-  return 1;
+var convertToPercent = function(float) {
+  return Math.round(float * 100 * 10) / 10 + '%';
+} 
+
+module.exports.convertToPercent = convertToPercent;
+
+var getSentimentScore = function (text, callback) {
+
+  var unirest = require('unirest');
+  var urlAPI = 'http://text-processing.com/api/sentiment/';
+  var language = "french";
+
+  var Request = unirest.post(urlAPI)
+    .headers({ 'Accept': 'application/json' })
+    .encoding('utf-8')
+    .send('text='+encodeURIComponent(text))
+    .send('language='+language)
+    .end(function (response) {
+      data = response.body;
+      var result = {};
+      result.label = data.label;
+      result.positive = convertToPercent(data.probability.pos);
+      result.neutral = convertToPercent(data.probability.neutral);
+      result.negative = convertToPercent(data.probability.neg);
+      callback(result);
+    });
 }
 
-module.exports.getSocialCount = function (url, callback) {
+module.exports.getSentimentScore = getSentimentScore;
+
+var getSocialCount = function (url, callback) {
 
   var unirest = require('unirest');
   var urlAPI = 'http://api.sharedcount.com/';
@@ -46,3 +77,5 @@ module.exports.getSocialCount = function (url, callback) {
     });
 
 }
+
+module.exports.getSocialCount = getSocialCount;
