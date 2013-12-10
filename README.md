@@ -39,7 +39,7 @@ We are fed up with the click obsession. We want other indicators for better news
 * parseRSS.js
 * parseXLS.js
 * sharedcount.js
-* textProcessingSentiment.js
+* textProcessingSentiment.js - using API : http://text-processing.com/docs/sentiment.html
 * twitterSearch.js
 * twitterTimeline.js
 
