@@ -2,8 +2,9 @@ html, body { height: 100%; }
 
 .pt-perspective {
 	position: relative;
-	width: 100%;
+	width:1920px;
 	height: 100%;
+	overflow: auto;
 	-webkit-perspective: 1200px;
 	-moz-perspective: 1200px;
 	perspective: 1200px;
@@ -16,7 +17,7 @@ html, body { height: 100%; }
 	top: 0;
 	left: 0;
 	visibility: hidden;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -26,7 +27,7 @@ html, body { height: 100%; }
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	background: #333;
+	background: #222;
 }
 
 .pt-page-1 {
