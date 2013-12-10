@@ -82,7 +82,7 @@ $(document).ready(function(){
 			$('.cf-td-day', $(this)).html(now.format('dddd'));   			
 			$('.cf-td-date', $(this)).html(now.format('MMMM Do YYYY'));   
 		});
-	
+
 		setTimeout(updateTime, 3000);
 	})();
 	
@@ -111,27 +111,27 @@ $(document).ready(function(){
 	/*
 	*	Copy the each() function for each line chart you have
 	* 	e.g. $('#pie-1').each(function(){.....}
-	*/
-	$('.cf-pie').each(function(){
+		*/
+		$('#cf-pie-1').each(function(){
 		// Data for pie chart
 		var pdata = [
-			{
-				value : 30,
-				color : pieSegColors[3],
-				label: 'Label 1'
-			},
-			{
-				value : 50,
-				color : pieSegColors[2],
-				label: 'Label 2'			
-			},
-			{
-				value: 100,
-				color: pieSegColors[1],
-				label: 'Label 3'			
-			}
+		{
+			value: 100,
+			color: pieSegColors[1],
+			label: 'Belgique'			
+		},
+		{
+			value : 50,
+			color : pieSegColors[2],
+			label: 'Europe'			
+		},
+		{
+			value : 20,
+			color : pieSegColors[3],
+			label: 'Monde'
+		}
 		]
-	
+
 		var $container = $(this);
 		var pId = $container.prop('id');
 		
@@ -149,7 +149,50 @@ $(document).ready(function(){
 		// Create chart
 		createPieChart($container);
 	});
-	
+		$('#cf-pie-2').each(function(){
+		// Data for pie chart
+		var pdata = [
+		{
+			value: 100,
+			color: pieSegColors[1],
+			label: 'Blanc'
+		},
+		{
+			value : 25,
+			color : pieSegColors[3],
+			label: 'Arabe'
+		},
+		{
+			value : 10,
+			color : pieSegColors[2],
+			label: 'Asiatique'			
+		},
+		{
+			value : 20,
+			color : pieSegColors[4],
+			label: 'Noir'
+
+		}
+		]
+
+		var $container = $(this);
+		var pId = $container.prop('id');
+		
+		// Store chart information
+		cf_rPs[pId] = {};
+		cf_rPs[pId].data = pdata;
+		
+		/*
+		// Set options per chart		
+		customOptions = {};
+		customOptions.animation = false;
+		cf_rPs[pId].options = customOptions;
+		*/
+		
+		// Create chart
+		createPieChart($container);
+	});
+
 }); // end doc ready
 
 function createPieChart(obj){
@@ -164,7 +207,7 @@ function createPieChart(obj){
 
 		//Set canvas size
 		$canvas.prop({width:cWidth,height:cHeight});
-	
+
 		// Get canvas context		
 		var ctx = $canvas.get(0).getContext('2d');
 		
@@ -227,19 +270,19 @@ $(document).ready(function(){
 	/*
 	*	Copy the each() function for each line chart you have
 	* 	e.g. $('#line-1').each(function(){.....}
-	*/	
-	$('.cf-line').each(function(){
+		*/	
+		$('.cf-line').each(function(){
 		// Dummy data for line chart
 		var ldata = {
 			labels : ["5/13","","","","","","11/13"],
 			datasets : [
-				{
-					strokeColor : metric,
-					data : [65,59,40,81,56,55,90]
-				}
+			{
+				strokeColor : metric,
+				data : [65,59,40,81,56,55,90]
+			}
 			]
 		}
-	
+
 		var $container = $(this);
 		var lId = $container.prop('id');
 		
@@ -257,7 +300,7 @@ $(document).ready(function(){
 		// Create chart
 		createLineChart($container);
 	});
-	
+
 }); // end doc ready
 
 function createLineChart(obj){
@@ -317,9 +360,9 @@ $(document).ready(function(){
 	/*
 	*	Copy the each() function for each sparkline you have
 	* 	e.g. $('#spark-1').each(function(){.....}
-	*/	
-	$('.sparkline').each(function(){
-		
+		*/	
+		$('#spark-1').each(function(){
+
 		/*
 		// Set custom options and merge with default
 		customSparkOptions = {};
@@ -330,11 +373,27 @@ $(document).ready(function(){
 		
 		// No custom options
 		var sparkOptions = cf_defaultSparkOpts;
-			
+
+		data = 	[2.34,1.76,2.00,2.45,2.12,2.33,2.66,2.00,2.65,2.32,2.50,2.70,2.65,2.45,2.89,3.18];
+		createSparkline($(this), data, sparkOptions);
+	});
+		$('#spark-2').each(function(){
+
+		/*
+		// Set custom options and merge with default
+		customSparkOptions = {};
+		customSparkOptions.minSpotColor = true;
+		var sparkOptions = cf_defaultSparkOpts;
+		var sparkOptions = $.extend({}, cf_defaultSparkOpts, customSparkOptions);
+		*/
+		
+		// No custom options
+		var sparkOptions = cf_defaultSparkOpts;
+
 		data = 	[2343,1765,2000,2453,2122,2333,2666,3000,2654,2322,2500,2700,2654,2456,2892,3292];
 		createSparkline($(this), data, sparkOptions);
 	});	
-});
+	});
 
 function createSparkline(obj, data, sparkOptions){
 	
@@ -344,10 +403,10 @@ function createSparkline(obj, data, sparkOptions){
 		var ww = $(window).width();
 		var $obj = obj;			
 		var $parent = $obj.parent().parent();
-	
+
 		// Current value
 		$('.sparkline-value .metric-small', $parent).html(data[data.length-1]);
-	
+
 		// Sizing
 		if(ww < 768){
 			var cWidth = $parent.width();
@@ -362,11 +421,11 @@ function createSparkline(obj, data, sparkOptions){
 			var slHeight = cHeight - svmHeight;
 			$('.sparkline-value', $parent).css({height:slHeight});
 		}	
-	
+
 		// Options
 		sparkOptions.width = slWidth;
 		sparkOptions.height = slHeight;		
-	
+
 		// Create sparkline
 		$obj.sparkline(data, sparkOptions);
 	}
@@ -383,7 +442,7 @@ function createSparkline(obj, data, sparkOptions){
 */
 $(document).ready(function(){
 	//Initialise gauges to default 
-	$('.cf-gauge').each(function(){
+	$('#cf-gauge-1').each(function(){
 
 		// Gather IDs 
 		var gId = $(this).prop('id');					// Gauge container id e.g. cf-gauge-1
@@ -422,7 +481,61 @@ $(document).ready(function(){
 
 		// Responsiveness	
 		$(window).resize(function(){
-		
+
+			//Get canvas measurements
+			var ratio = 2.1;
+			var width = $('.canvas', $('#'+gId)).width();
+			var height = Math.round(width/ratio);
+
+			cf_rGs[gId].ctx.clearRect(0, 0, width, height);
+			$('canvas', $('#'+gId)).width(width).height(height);
+			cf_rGs[gId].render();
+		});
+
+	});
+});
+$(document).ready(function(){
+	//Initialise gauges to default 
+	$('#cf-gauge-2').each(function(){
+
+		// Gather IDs 
+		var gId = $(this).prop('id');					// Gauge container id e.g. cf-gauge-1
+		var gcId = $('canvas', $(this)).prop('id');		// Gauge canvas id e.g. cf-gauge-1-g
+		var gmId = $('.metric', $(this)).prop('id');  	// Gauge metric id e.g. cf-gauge-1-m
+
+		//Create a canvas
+		var ratio = 2.1;
+		var width = $('.canvas',$(this)).width();
+		var height = Math.round(width/ratio);
+		$('canvas', $(this)).prop('width', width).prop('height', height);
+
+		// Set options  	
+		rGopts = {};
+		rGopts.lineWidth = 0.30;
+		rGopts.strokeColor = gaugeTrackColor;
+		rGopts.limitMax = true;
+		rGopts.colorStart = gaugeColorStart;
+		rGopts.colorStop = gaugeColorStop;
+		rGopts.generateGradient = true;
+		rGopts.percentColors = void 0;	
+		rGopts.pointer = {
+			length: 0.7,
+			strokeWidth: 0.035,
+			color: gaugePointerColor
+		};
+
+		// Create gauge
+		cf_rGs[gId] = new Gauge(document.getElementById(gcId)).setOptions(rGopts);
+		cf_rGs[gId].setTextField(document.getElementById(gmId));
+
+		// Set up values for gauge (in reality it'll likely be done one by one calling the function, not from here)
+		updateOpts = {'minVal':'-100','maxVal':'100','newVal':'17'};
+		gaugeUpdate(gId, updateOpts);
+
+
+		// Responsiveness	
+		$(window).resize(function(){
+
 			//Get canvas measurements
 			var ratio = 2.1;
 			var width = $('.canvas', $('#'+gId)).width();
@@ -524,89 +637,89 @@ function rSVP(element, options){
 			
 			if(ww > 767 && ww < 992){
 				rsvpOpt.size = container.width()-10;
-										
+
 				switch($(chart).data('layout')){
 					case 'l-6':
-						rsvpOpt.lineWidth = 30;
-						break;
+					rsvpOpt.lineWidth = 30;
+					break;
 					
 					case 'l-6-i':
-						rsvpOpt.lineWidth = 20;
-						rsvpOpt.size = parseFloat((container.width()*0.7)-10);
-						break;					
+					rsvpOpt.lineWidth = 20;
+					rsvpOpt.size = parseFloat((container.width()*0.7)-10);
+					break;					
 					
 					case 'l-6-12-6':
-						break;
+					break;
 					
 					case 'l-6-4':
-						rsvpOpt.lineWidth = 5;	
-						break;
+					rsvpOpt.lineWidth = 5;	
+					break;
 				}
 			}
 			else if(ww > 991 && ww < 1200 ){
 				rsvpOpt.size = container.width()-10;
-										
+
 				switch($(chart).data('layout')){
 					case 'l-6':
-						rsvpOpt.lineWidth = 30;
-						break;
+					rsvpOpt.lineWidth = 30;
+					break;
 					
 					case 'l-6-i':
-						rsvpOpt.lineWidth = 30;
-						rsvpOpt.size = parseFloat((container.width()*0.75)-10);
-						break;					
+					rsvpOpt.lineWidth = 30;
+					rsvpOpt.size = parseFloat((container.width()*0.75)-10);
+					break;					
 					
 					case 'l-6-12-6':
-						rsvpOpt.lineWidth = 20;
-						break;
+					rsvpOpt.lineWidth = 20;
+					break;
 					
 					case 'l-6-4':
-						rsvpOpt.lineWidth = 5;	
-						break;
+					rsvpOpt.lineWidth = 5;	
+					break;
 				}
 			}
 			else if(ww > 1199 && ww < 1399){
 				rsvpOpt.size = container.width()-10;
-										
+
 				switch($(chart).data('layout')){
 					case 'l-6':
-						rsvpOpt.lineWidth = 40;
-						break;
+					rsvpOpt.lineWidth = 40;
+					break;
 					
 					case 'l-6-i':
-						rsvpOpt.lineWidth = 30;
-						rsvpOpt.size = parseFloat((container.width()*0.75)-10);
-						break;					
+					rsvpOpt.lineWidth = 30;
+					rsvpOpt.size = parseFloat((container.width()*0.75)-10);
+					break;					
 					
 					case 'l-6-12-6':
-						rsvpOpt.lineWidth = 20;					
-						break;
+					rsvpOpt.lineWidth = 20;					
+					break;
 					
 					case 'l-6-4':
-						rsvpOpt.lineWidth = 10;	
-						break;
+					rsvpOpt.lineWidth = 10;	
+					break;
 				}
 			}
 			else if(ww > 1399){
 				rsvpOpt.size = container.width()-10;
-										
+
 				switch($(chart).data('layout')){
 					case 'l-6':
-						rsvpOpt.lineWidth = 50;
-						break;
+					rsvpOpt.lineWidth = 50;
+					break;
 					
 					case 'l-6-i':
-						rsvpOpt.lineWidth = 40;
-						rsvpOpt.size = parseFloat((container.width()*0.75)-10);
-						break;					
+					rsvpOpt.lineWidth = 40;
+					rsvpOpt.size = parseFloat((container.width()*0.75)-10);
+					break;					
 					
 					case 'l-6-12-6':
-						rsvpOpt.lineWidth = 30;
-						break;
+					rsvpOpt.lineWidth = 30;
+					break;
 					
 					case 'l-6-4':
-						rsvpOpt.lineWidth = 15;	
-						break;
+					rsvpOpt.lineWidth = 15;	
+					break;
 				}
 			}
 			// Create and store the chart
@@ -642,7 +755,7 @@ $(window).resize(function(){
 *	Shorten large numbers
 */
 function prettyNumber (number) {
-    var prettyNumberSuffixes = ["", "K", "M", "bn", "tr"];
+	var prettyNumberSuffixes = ["", "K", "M", "bn", "tr"];
 	var addCommas = function (nStr){
 		var x = '';
 		var rgx = /(\d+)(\d{3})/;
