@@ -4,6 +4,14 @@ Our project is called the other dashboard
 
 We are fed up with the click obsession. We want other indicators for better news for a better world
 
+## Classical Dashboard
+
+<img src="https://raw.github.com/messenjer/theotherdashboard/master/classical-dashboard.png" alt=""/>
+
+## Alternate Dashboard
+
+<img src="https://raw.github.com/messenjer/theotherdashboard/master/alternate-dashboard.png" alt=""/>
+
 ## Demo
 
 * Webmastering : http://messenjer.github.io/theotherdashboard/webapp/dashboard-1.html 
@@ -19,7 +27,7 @@ We are fed up with the click obsession. We want other indicators for better news
 ## Client
 
 * /webapp
-* Bootstrap 3
+* Backbone.js, Bootstrap 3, Socket.io
 
 ## Server
 
@@ -65,3 +73,7 @@ Article 8153327 - 6 : Ethnic score : {"blanc":20,"noir":0,"arabe":1,"asiatique":
 Article 8153346 --------------------
 ...
 ```
+
+
+
+
