@@ -107,5 +107,24 @@ module.exports.getGenderScore = getGenderScore;
 
 var getEthnicScore = function (text, callback) {
 
+  var ethnicNameCountList = {
+    'blanc' : 0,
+    'noir' : 0,
+    'arabe' : 0,
+    'asiatique' : 0 };
+
+  var firstnameDataList = require('./data/firstname-ethnic.json');
+
+  wordIndexList = getWordIndexList(text);
+  _.each(wordIndexList, function (element, index, list) {
+    if ( firstnameDataList[index] ) {
+      var ethnic = firstnameDataList[index].ethnic
+      if (ethnic) {
+        ethnicNameCountList[ethnic.name] += element;
+      }
+    }
+  });
+  callback(ethnicNameCountList);
+
 }  
 module.exports.getEthnicScore = getEthnicScore;
