@@ -74,6 +74,13 @@ Article 8153346 --------------------
 ...
 ```
 
+### Why total gender and ethnic are not equal ? 
 
+```
+Gender score : {"woman":8,"man":17} --> total 25
+Ethnic score : {"blanc":20,"noir":0,"arabe":1,"asiatique":0} --> total 21
+```
+
+Because sometimes firstname is used for woman and boy, so we increment each one. 
 
 
