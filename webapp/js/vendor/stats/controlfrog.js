@@ -475,7 +475,7 @@ $(document).ready(function(){
 		cf_rGs[gId].setTextField(document.getElementById(gmId));
 
 		// Set up values for gauge (in reality it'll likely be done one by one calling the function, not from here)
-		updateOpts = {'minVal':'0','maxVal':'1000','newVal':'900'};
+		updateOpts = {'minVal':'0','maxVal':'886','newVal':'579'};
 		gaugeUpdate(gId, updateOpts);
 
 
