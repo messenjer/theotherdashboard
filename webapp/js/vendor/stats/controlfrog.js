@@ -25,8 +25,8 @@ else {
 	var gaugeTrackColor = '#4f4f4f';
 	var gaugeBarColor = '#898989';
 	var gaugePointerColor = metric;
-	var gaugeColorStop = '#00FF00';
-	var gaugeColorStart = '#FF0000';
+	var gaugeColorStop = '#999';
+	var gaugeColorStart = '#999';
 }
 
 // Stores
